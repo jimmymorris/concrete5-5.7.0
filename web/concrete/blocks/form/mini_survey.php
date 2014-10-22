@@ -167,7 +167,7 @@ class MiniSurvey {
 				echo $captcha->label();
    				echo '<div>';
 
-   				$captcha->showInput();
+   				// $captcha->showInput();
    				$captcha->display();
 
    				//echo isset($errors['captcha'])?'<span class="error">' . $errors['captcha'] . '</span>':'';
